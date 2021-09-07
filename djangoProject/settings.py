@@ -82,12 +82,12 @@ REST_FRAMEWORK = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'iBook',
-        'USER': 'root',
-        'PASSWORD': 'M1Dev528491',
+        'USER': 'postgres',
+        'PASSWORD': '528491',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 
